@@ -8,41 +8,56 @@
   </head>
 
   <body>
-    <nav>
-      <ul>
-        <li><a target="_blank" href=".">HOME</a></li>
-        <li>
-          <a target="_blank" href="https://info.cern.ch/hypertext/WWW/">The birth of the Web</a>
-        </li>
-        <li>
-          <a target="_blank" href="https://www.w3.org/TR/2008/REC-CSS1-20080411/"
-            >CSS W3C Recommendation - 1996
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://codepen.io/kevinpowell/pen/jOXwVVB">CSS only</a>
-        </li>
-      </ul>
-    </nav>
-    <h1>Title of a document</h1>
-    <h2>Title of a section</h2>
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur autem, culpa est provident
-      maxime officia eveniet blanditiis animi iure consectetur ab sunt tempore. Minima neque modi
-      maiores commodi itaque mollitia.
-      <a href="#"
-        >Aliqua incididunt veniam non velit et ea esse proident. Amet anim id id veniam nostrud sunt
-        consequat excepteur culpa consequat. Sunt nostrud commodo ea et incididunt ea eiusmod veniam
-        voluptate labore minim.</a
-      >
-      Mollit culpa quis ullamco veniam minim dolor commodo amet sit nisi aliquip esse laborum culpa.
-      Proident sit labore incididunt cillum cupidatat irure pariatur labore labore ex consequat
-      nulla. Nostrud voluptate occaecat incididunt do eiusmod ullamco dolore cillum eu sint eu
-      pariatur anim. Eiusmod laboris aliquip consectetur officia laboris proident irure sit eiusmod
-      laboris velit enim ex. Elit nostrud anim dolore id aliqua do ipsum commodo sint. Ea fugiat
-      deserunt commodo commodo. Eu labore non eiusmod veniam consectetur dolor mollit amet laborum
-      deserunt dolor. Nisi consectetur est incididunt id non labore adipisicing aliqua anim do
-      aliqua proident.
-    </p>
+    <section
+      style="
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-between;
+      "
+    >
+      <nav>
+        <ul>
+          <li><a href=".">HOME</a></li>
+          <li>
+            <a target="_blank" href="https://info.cern.ch/hypertext/WWW/News/9211.html"
+              >World-Wide Web News November 1992</a
+            >
+          </li>
+          <li>
+            <a target="_blank" href="https://www.w3.org/TR/CSS1/">CSS W3C Recommendation - 1996</a>
+          </li>
+          <li>
+            <a target="_blank" href="https://codepen.io/kevinpowell/pen/jOXwVVB">CSS only</a>
+          </li>
+        </ul>
+      </nav>
+      <h1>Title of a document</h1>
+      <h2>Title of a section</h2>
+      <p style="flex: 600px 1 1; flex-shrink: 0">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur autem, culpa est provident
+        maxime officia eveniet blanditiis animi iure consectetur ab sunt tempore. Minima neque modi
+        maiores commodi itaque mollitia.
+        <a href="#"
+          >Aliqua incididunt veniam non velit et ea esse proident. Amet <i>anim id id</i> veniam
+          nostrud sunt consequat excepteur culpa consequat. Sunt nostrud commodo ea et incididunt
+          <em>ea eiusmod veniam voluptate </em>labore minim.</a
+        >
+        Mollit culpa quis ullamco veniam minim dolor commodo amet sit nisi aliquip esse laborum
+        culpa. Proident sit labore incididunt cillum cupidatat irure pariatur labore labore ex
+        consequat nulla.
+        <span
+          >Nostrud voluptate occaecat incididunt do eiusmod ullamco dolore cillum eu sint eu
+          pariatur anim. Eiusmod laboris aliquip consectetur officia laboris proident irure
+          sit</span
+        >
+        eiusmod laboris velit enim ex. Elit nostrud anim dolore id aliqua do ipsum commodo sint. Ea
+        fugiat deserunt commodo commodo. Eu labore non eiusmod veniam consectetur
+        <b>dolor mollit amet laborum</b> deserunt dolor. Nisi
+        <strong>consectetur <i>est</i> incididunt</strong> id non labore adipisicing aliqua anim do
+        aliqua proident.
+      </p>
+    </section>
   </body>
 </html>
